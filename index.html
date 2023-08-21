@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NTF</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <nav class="shadow1 pos-fix">
+            <div class="container">
+                <div class="d-flex align-content-center justify-content-between">
+                    <div class="d-flex align-items-center">
+                        <label for="menubar" class="z-index">
+                            <span class="w-50 ml-15"></span>
+                            <span></span>
+                            <span class="w-50 align-items-end"></span>
+                        </label>
+                        <img src="./assets/images/png/logo.png" alt="logo" class="pl-10">
+                        <p class="see pl-25 fs-sm-20 fs-lg-36 d-none d-sm-block mb-0">NFTsee</p>
+                        <input type="checkbox" id="menubar" hidden>
+                        <div class="d-flex align-items-center gap-29 mobile-view">
+                            <ul class="d-flex align-items-center gap-59">
+                                <li><a href="" class="feeds mb-0">Feed</a></li>
+                                <li><a href="" class="wallet mb-0">Wallet</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center gap-25">
+                        <div class="d-flex align-items-center gap-25 d-none d-lg-block">
+                            <input type="text" placeholder="Search here..." class="here outline-none">
+                        </div>
+                        <span class="d-block d-lg-none">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M10 18C11.775 17.9996 13.4988 17.4054 14.897 16.312L19.293 20.708L20.707 19.294L16.311 14.898C17.405 13.4997 17.9996 11.7754 18 10C18 5.589 14.411 2 10 2C5.589 2 2 5.589 2 10C2 14.411 5.589 18 10 18ZM10 4C13.309 4 16 6.691 16 10C16 13.309 13.309 16 10 16C6.691 16 4 13.309 4 10C4 6.691 6.691 4 10 4Z"
+                                    fill="black" />
+                            </svg>
+                        </span>
+                        <label class="switch">
+                            <input type="checkbox" checked>
+                            <span class="slider round"></span>
+                        </label>
+                        <div>
+                            <img src="./assets/images/png/men.img" alt="men" class="w-100">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="d-block d-lg-none">
+        <div class="container">
+            <div class="col-lg-4 col-12">
+                <p class="filter pt-120 pb-13">Filters</p>
+                <div class="d-flex">
+                    <button class=" most liked bor-none">Most Liked</button>
+                    <button class=" most liked bor-none ml-10">Recently Received</button>
+                </div>
+                <p class="Suggestion pt-20 pb-13">Suggestions for you</p>
+                <div class="d-flex gap-10 overflow-auto ">
+                    <div class="card2 d-flex justify-content-center flex-column">
+                        <img src="./assets/images/png/img1.png" alt="1" class="pt-20 px-35">
+                        <p class="jhone pt-16 px-35 mb-0 wh-space">Jhone doe</p>
+                        <p class="follow cursor-pointer pt-8 px-40">Follow</p>
+                    </div>
+                    <div class="card2 d-flex justify-content-center flex-column">
+                        <img src="./assets/images/png/men.img" alt="men" class="pt-20 px-35">
+                        <p class="jhone pt-16 px-35 mb-0 wh-space">Jhone doe</p>
+                        <p class="follow cursor-pointer pt-8 px-40">Follow</p>
+                    </div>
+                    <div class="card2 d-flex justify-content-center flex-column">
+                        <img src="./assets/images/png/girl.png" alt="men5" class="pt-20 px-35">
+                        <p class="jhone pt-16 px-35 mb-0 wh-space">Jhone doe</p>
+                        <p class="follow cursor-pointer pt-8 px-40">Follow</p>
+                    </div>
+                    <div class="card2 d-flex justify-content-center flex-column">
+                        <img src="./assets/images/png/men2.png" alt="men2" class="pt-20 px-35">
+                        <p class="jhone pt-16 px-35 mb-0 wh-space">Jhone doe</p>
+                        <p class="follow cursor-pointer pt-8 px-40">Follow</p>
+                    </div>
+                    <div class="card2 d-flex justify-content-center flex-column">
+                        <img src="./assets/images/png/img2.png" alt="img2" class="pt-20 px-35">
+                        <p class="jhone pt-16 px-35 mb-0 wh-space">Jhone doe</p>
+                        <p class="follow cursor-pointer pt-8 px-40">Follow</p>
+                    </div>
+                    <div class="card2 d-flex justify-content-center flex-column">
+                        <img src="./assets/images/png/girl2.png" alt="men8" class="pt-20 px-35">
+                        <p class="jhone pt-16 px-35 mb-0 wh-space">Jhone doe</p>
+                        <p class="follow cursor-pointer pt-8 px-40">Follow</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row pt-37">
+                <div class="col-lg-9 col-12">
+                    <div class="cards">
+                        <div class="d-flex justify-content-between">
+                            <div class="d-flex align-items-center">
+                                <img src="./assets/images/png/men2.png" alt="2">
+                                <p class="doe wh-space pl-17 mb-0">Jhone doe</p>
+                            </div>
+                            <div>
+                                <span>
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g opacity="0.6" clip-path="url(#clip0_2_2181)">
+                                            <path
+                                                d="M12.2002 10.0008C12.2002 9.71177 12.1433 9.42556 12.0327 9.15852C11.922 8.89148 11.7599 8.64884 11.5555 8.44446C11.3512 8.24008 11.1085 8.07796 10.8415 7.96735C10.5744 7.85673 10.2882 7.7998 9.9992 7.7998C9.71016 7.7998 9.42395 7.85673 9.15691 7.96735C8.88987 8.07796 8.64724 8.24008 8.44285 8.44446C8.23847 8.64884 8.07635 8.89148 7.96574 9.15852C7.85513 9.42556 7.7982 9.71177 7.7982 10.0008C7.79833 10.5845 8.03035 11.1443 8.44321 11.557C8.85607 11.9697 9.41595 12.2014 9.9997 12.2013C10.5834 12.2012 11.1432 11.9692 11.5559 11.5563C11.9686 11.1434 12.2003 10.5835 12.2002 9.9998L12.2002 10.0008ZM14.8002 10.0008C14.8003 10.2897 14.8574 10.5758 14.968 10.8426C15.0787 11.1095 15.2409 11.352 15.4453 11.5561C15.6496 11.7603 15.8922 11.9223 16.1592 12.0327C16.4262 12.1432 16.7123 12.1999 17.0012 12.1998C17.2901 12.1997 17.5762 12.1426 17.843 12.032C18.1099 11.9213 18.3523 11.7591 18.5565 11.5547C18.7607 11.3504 18.9227 11.1078 19.0331 10.8408C19.1436 10.5738 19.2003 10.2877 19.2002 9.9988C19.1999 9.41533 18.9679 8.85586 18.5551 8.44346C18.1424 8.03107 17.5827 7.79954 16.9992 7.7998C16.4157 7.80007 15.8562 8.03211 15.4439 8.44488C15.0315 8.85764 14.7999 9.41733 14.8002 10.0008ZM5.2002 10.0008C5.2002 9.41706 4.9683 8.85723 4.55554 8.44446C4.14277 8.03169 3.58294 7.7998 2.9992 7.7998C2.41545 7.7998 1.85562 8.03169 1.44285 8.44446C1.03008 8.85723 0.798195 9.41706 0.798195 10.0008C0.798195 10.5845 1.03008 11.1444 1.44285 11.5571C1.85562 11.9699 2.41545 12.2018 2.99919 12.2018C3.58294 12.2018 4.14277 11.9699 4.55554 11.5571C4.9683 11.1444 5.2002 10.5845 5.2002 10.0008Z"
+                                                fill="black" />
+                                        </g>
+                                        <defs>
+                                        </defs>
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="pt-44 pb-17">
+                            <img src="./assets/images/png/unsplash_SFT9G3pAxLY (1).png" alt="unsplash" class="w-100">
+                        </div>
+                        <div class="d-flex">
+                            <span class="pr-21">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7 3C4.239 3 2 5.216 2 7.95C2 10.157 2.875 15.395 11.488 20.69C11.6423 20.7839 11.8194 20.8335 12 20.8335C12.1806 20.8335 12.3577 20.7839 12.512 20.69C21.125 15.395 22 10.157 22 7.95C22 5.216 19.761 3 17 3C14.239 3 12 6 12 6C12 6 9.761 3 7 3Z"
+                                        stroke="black" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </span>
+                            <span class="pb-24">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M14 19C17.771 19 19.657 19 20.828 17.828C22 16.657 22 14.771 22 11C22 7.229 22 5.343 20.828 4.172C19.657 3 17.771 3 14 3H10C6.229 3 4.343 3 3.172 4.172C2 5.343 2 7.229 2 11C2 14.771 2 16.657 3.172 17.828C3.825 18.482 4.7 18.771 6 18.898"
+                                        stroke="black" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M14.0002 19C12.7642 19 11.4022 19.5 10.1592 20.145C8.16124 21.182 7.16224 21.701 6.67024 21.37C6.17824 21.04 6.27124 20.015 6.45824 17.966L6.50024 17.5"
+                                        stroke="black" stroke-width="2" stroke-linecap="round" />
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="box1 d-flex">
+                            <input type="text" placeholder="Add a comment..." class="border-none w-100 outline-none">
+                            <p class="post mb-0">Post</p>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <div class="d-flex justify-content-between">
+                            <div class="d-flex align-items-center">
+                                <img src="./assets/images/png/Ellipse10.png" alt="10">
+                                <p class="doe wh-space pl-17 mb-0">Jhone doe</p>
+                            </div>
+                            <div>
+                                <span>
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g opacity="0.6" clip-path="url(#clip0_2_2181)">
+                                            <path
+                                                d="M12.2002 10.0008C12.2002 9.71177 12.1433 9.42556 12.0327 9.15852C11.922 8.89148 11.7599 8.64884 11.5555 8.44446C11.3512 8.24008 11.1085 8.07796 10.8415 7.96735C10.5744 7.85673 10.2882 7.7998 9.9992 7.7998C9.71016 7.7998 9.42395 7.85673 9.15691 7.96735C8.88987 8.07796 8.64724 8.24008 8.44285 8.44446C8.23847 8.64884 8.07635 8.89148 7.96574 9.15852C7.85513 9.42556 7.7982 9.71177 7.7982 10.0008C7.79833 10.5845 8.03035 11.1443 8.44321 11.557C8.85607 11.9697 9.41595 12.2014 9.9997 12.2013C10.5834 12.2012 11.1432 11.9692 11.5559 11.5563C11.9686 11.1434 12.2003 10.5835 12.2002 9.9998L12.2002 10.0008ZM14.8002 10.0008C14.8003 10.2897 14.8574 10.5758 14.968 10.8426C15.0787 11.1095 15.2409 11.352 15.4453 11.5561C15.6496 11.7603 15.8922 11.9223 16.1592 12.0327C16.4262 12.1432 16.7123 12.1999 17.0012 12.1998C17.2901 12.1997 17.5762 12.1426 17.843 12.032C18.1099 11.9213 18.3523 11.7591 18.5565 11.5547C18.7607 11.3504 18.9227 11.1078 19.0331 10.8408C19.1436 10.5738 19.2003 10.2877 19.2002 9.9988C19.1999 9.41533 18.9679 8.85586 18.5551 8.44346C18.1424 8.03107 17.5827 7.79954 16.9992 7.7998C16.4157 7.80007 15.8562 8.03211 15.4439 8.44488C15.0315 8.85764 14.7999 9.41733 14.8002 10.0008ZM5.2002 10.0008C5.2002 9.41706 4.9683 8.85723 4.55554 8.44446C4.14277 8.03169 3.58294 7.7998 2.9992 7.7998C2.41545 7.7998 1.85562 8.03169 1.44285 8.44446C1.03008 8.85723 0.798195 9.41706 0.798195 10.0008C0.798195 10.5845 1.03008 11.1444 1.44285 11.5571C1.85562 11.9699 2.41545 12.2018 2.99919 12.2018C3.58294 12.2018 4.14277 11.9699 4.55554 11.5571C4.9683 11.1444 5.2002 10.5845 5.2002 10.0008Z"
+                                                fill="black" />
+                                        </g>
+                                        <defs>
+                                        </defs>
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card1 mt-44 mb-17">
+                            <div class="d-flex align-items-center justify-content-center">
+                                <img src="./assets/images/png/colorful.img2.png" alt="2" class="w-50">
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <span class="pr-21">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7 3C4.239 3 2 5.216 2 7.95C2 10.157 2.875 15.395 11.488 20.69C11.6423 20.7839 11.8194 20.8335 12 20.8335C12.1806 20.8335 12.3577 20.7839 12.512 20.69C21.125 15.395 22 10.157 22 7.95C22 5.216 19.761 3 17 3C14.239 3 12 6 12 6C12 6 9.761 3 7 3Z"
+                                        stroke="black" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </span>
+                            <span class="pb-24">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M14 19C17.771 19 19.657 19 20.828 17.828C22 16.657 22 14.771 22 11C22 7.229 22 5.343 20.828 4.172C19.657 3 17.771 3 14 3H10C6.229 3 4.343 3 3.172 4.172C2 5.343 2 7.229 2 11C2 14.771 2 16.657 3.172 17.828C3.825 18.482 4.7 18.771 6 18.898"
+                                        stroke="black" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M14.0002 19C12.7642 19 11.4022 19.5 10.1592 20.145C8.16124 21.182 7.16224 21.701 6.67024 21.37C6.17824 21.04 6.27124 20.015 6.45824 17.966L6.50024 17.5"
+                                        stroke="black" stroke-width="2" stroke-linecap="round" />
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="box1 d-flex">
+                            <input type="text" placeholder="Add a comment..." class="border-none w-100 outline-none">
+                            <p class="post mb-0">Post</p>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <div class="d-flex justify-content-between">
+                            <div class="d-flex align-items-center">
+                                <img src="./assets/images/png/Ellipse.girl10.png" alt="10">
+                                <p class="doe wh-space pl-17 mb-0">Jhone doe</p>
+                            </div>
+                            <div>
+                                <span>
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g opacity="0.6" clip-path="url(#clip0_2_2181)">
+                                            <path
+                                                d="M12.2002 10.0008C12.2002 9.71177 12.1433 9.42556 12.0327 9.15852C11.922 8.89148 11.7599 8.64884 11.5555 8.44446C11.3512 8.24008 11.1085 8.07796 10.8415 7.96735C10.5744 7.85673 10.2882 7.7998 9.9992 7.7998C9.71016 7.7998 9.42395 7.85673 9.15691 7.96735C8.88987 8.07796 8.64724 8.24008 8.44285 8.44446C8.23847 8.64884 8.07635 8.89148 7.96574 9.15852C7.85513 9.42556 7.7982 9.71177 7.7982 10.0008C7.79833 10.5845 8.03035 11.1443 8.44321 11.557C8.85607 11.9697 9.41595 12.2014 9.9997 12.2013C10.5834 12.2012 11.1432 11.9692 11.5559 11.5563C11.9686 11.1434 12.2003 10.5835 12.2002 9.9998L12.2002 10.0008ZM14.8002 10.0008C14.8003 10.2897 14.8574 10.5758 14.968 10.8426C15.0787 11.1095 15.2409 11.352 15.4453 11.5561C15.6496 11.7603 15.8922 11.9223 16.1592 12.0327C16.4262 12.1432 16.7123 12.1999 17.0012 12.1998C17.2901 12.1997 17.5762 12.1426 17.843 12.032C18.1099 11.9213 18.3523 11.7591 18.5565 11.5547C18.7607 11.3504 18.9227 11.1078 19.0331 10.8408C19.1436 10.5738 19.2003 10.2877 19.2002 9.9988C19.1999 9.41533 18.9679 8.85586 18.5551 8.44346C18.1424 8.03107 17.5827 7.79954 16.9992 7.7998C16.4157 7.80007 15.8562 8.03211 15.4439 8.44488C15.0315 8.85764 14.7999 9.41733 14.8002 10.0008ZM5.2002 10.0008C5.2002 9.41706 4.9683 8.85723 4.55554 8.44446C4.14277 8.03169 3.58294 7.7998 2.9992 7.7998C2.41545 7.7998 1.85562 8.03169 1.44285 8.44446C1.03008 8.85723 0.798195 9.41706 0.798195 10.0008C0.798195 10.5845 1.03008 11.1444 1.44285 11.5571C1.85562 11.9699 2.41545 12.2018 2.99919 12.2018C3.58294 12.2018 4.14277 11.9699 4.55554 11.5571C4.9683 11.1444 5.2002 10.5845 5.2002 10.0008Z"
+                                                fill="black" />
+                                        </g>
+                                        <defs>
+                                        </defs>
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="pt-44 pb-17">
+                            <img src="./assets/images/png/unsplash_0aWZdK8nK2I.png" alt="unsplash" class="w-100">
+                        </div>
+                        <div class="d-flex">
+                            <span class="pr-21">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7 3C4.239 3 2 5.216 2 7.95C2 10.157 2.875 15.395 11.488 20.69C11.6423 20.7839 11.8194 20.8335 12 20.8335C12.1806 20.8335 12.3577 20.7839 12.512 20.69C21.125 15.395 22 10.157 22 7.95C22 5.216 19.761 3 17 3C14.239 3 12 6 12 6C12 6 9.761 3 7 3Z"
+                                        stroke="black" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </span>
+                            <span class="pb-24">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M14 19C17.771 19 19.657 19 20.828 17.828C22 16.657 22 14.771 22 11C22 7.229 22 5.343 20.828 4.172C19.657 3 17.771 3 14 3H10C6.229 3 4.343 3 3.172 4.172C2 5.343 2 7.229 2 11C2 14.771 2 16.657 3.172 17.828C3.825 18.482 4.7 18.771 6 18.898"
+                                        stroke="black" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M14.0002 19C12.7642 19 11.4022 19.5 10.1592 20.145C8.16124 21.182 7.16224 21.701 6.67024 21.37C6.17824 21.04 6.27124 20.015 6.45824 17.966L6.50024 17.5"
+                                        stroke="black" stroke-width="2" stroke-linecap="round" />
+                                </svg>
+                            </span>
+                        </div>
+                    <div class="box1 d-flex">
+                        <input type="text" placeholder="Add a comment..." class="border-none w-100 outline-none">
+                        <p class="post mb-0">Post</p>
+                    </div>
+                    </div>
+                    <div class="cards">
+                        <div class="d-flex justify-content-between">
+                            <div class="d-flex align-items-center">
+                                <img src="./assets/images/png/Ellipse10.png" alt="10">
+                                <p class="doe wh-space pl-17 mb-0">Jhone doe</p>
+                            </div>
+                            <div>
+                                <span>
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g opacity="0.6" clip-path="url(#clip0_2_2181)">
+                                            <path
+                                                d="M12.2002 10.0008C12.2002 9.71177 12.1433 9.42556 12.0327 9.15852C11.922 8.89148 11.7599 8.64884 11.5555 8.44446C11.3512 8.24008 11.1085 8.07796 10.8415 7.96735C10.5744 7.85673 10.2882 7.7998 9.9992 7.7998C9.71016 7.7998 9.42395 7.85673 9.15691 7.96735C8.88987 8.07796 8.64724 8.24008 8.44285 8.44446C8.23847 8.64884 8.07635 8.89148 7.96574 9.15852C7.85513 9.42556 7.7982 9.71177 7.7982 10.0008C7.79833 10.5845 8.03035 11.1443 8.44321 11.557C8.85607 11.9697 9.41595 12.2014 9.9997 12.2013C10.5834 12.2012 11.1432 11.9692 11.5559 11.5563C11.9686 11.1434 12.2003 10.5835 12.2002 9.9998L12.2002 10.0008ZM14.8002 10.0008C14.8003 10.2897 14.8574 10.5758 14.968 10.8426C15.0787 11.1095 15.2409 11.352 15.4453 11.5561C15.6496 11.7603 15.8922 11.9223 16.1592 12.0327C16.4262 12.1432 16.7123 12.1999 17.0012 12.1998C17.2901 12.1997 17.5762 12.1426 17.843 12.032C18.1099 11.9213 18.3523 11.7591 18.5565 11.5547C18.7607 11.3504 18.9227 11.1078 19.0331 10.8408C19.1436 10.5738 19.2003 10.2877 19.2002 9.9988C19.1999 9.41533 18.9679 8.85586 18.5551 8.44346C18.1424 8.03107 17.5827 7.79954 16.9992 7.7998C16.4157 7.80007 15.8562 8.03211 15.4439 8.44488C15.0315 8.85764 14.7999 9.41733 14.8002 10.0008ZM5.2002 10.0008C5.2002 9.41706 4.9683 8.85723 4.55554 8.44446C4.14277 8.03169 3.58294 7.7998 2.9992 7.7998C2.41545 7.7998 1.85562 8.03169 1.44285 8.44446C1.03008 8.85723 0.798195 9.41706 0.798195 10.0008C0.798195 10.5845 1.03008 11.1444 1.44285 11.5571C1.85562 11.9699 2.41545 12.2018 2.99919 12.2018C3.58294 12.2018 4.14277 11.9699 4.55554 11.5571C4.9683 11.1444 5.2002 10.5845 5.2002 10.0008Z"
+                                                fill="black" />
+                                        </g>
+                                        <defs>
+
+                                        </defs>
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card1 mt-44 mb-17">
+                            <div class="d-flex align-items-center justify-content-center">
+                                <img src="./assets/images/png/colourful4.png" alt="4" class="w-50">
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <span class="pr-21">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7 3C4.239 3 2 5.216 2 7.95C2 10.157 2.875 15.395 11.488 20.69C11.6423 20.7839 11.8194 20.8335 12 20.8335C12.1806 20.8335 12.3577 20.7839 12.512 20.69C21.125 15.395 22 10.157 22 7.95C22 5.216 19.761 3 17 3C14.239 3 12 6 12 6C12 6 9.761 3 7 3Z"
+                                        stroke="black" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </span>
+                            <span class="pb-24">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M14 19C17.771 19 19.657 19 20.828 17.828C22 16.657 22 14.771 22 11C22 7.229 22 5.343 20.828 4.172C19.657 3 17.771 3 14 3H10C6.229 3 4.343 3 3.172 4.172C2 5.343 2 7.229 2 11C2 14.771 2 16.657 3.172 17.828C3.825 18.482 4.7 18.771 6 18.898"
+                                        stroke="black" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M14.0002 19C12.7642 19 11.4022 19.5 10.1592 20.145C8.16124 21.182 7.16224 21.701 6.67024 21.37C6.17824 21.04 6.27124 20.015 6.45824 17.966L6.50024 17.5"
+                                        stroke="black" stroke-width="2" stroke-linecap="round" />
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="box1 d-flex">
+                            <input type="text" placeholder="Add a comment..." class="border-none w-100 outline-none">
+                            <p class="post mb-0">Post</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-12 d-flex d-none d-lg-block">
+                    <p class="filter">filter</p>
+                    <div class="d-flex flex-column">
+                        <div class="d-flex align-items-center">
+                            <input type="radio" name="filter">
+                            <p class="mb-0 pl-10 liked">Most Liked</p>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <input type="radio" name="filter">
+                            <p class=" pl-10 mb-0 liked">Recently Received</p>
+                        </div>
+                        <div class="pt-40">
+                            <p class="Suggestion">Suggestions for you</p>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <div class="d-flex align-items-center justify-content-center">
+                                <img src="./assets/images/png/img1.png" alt="1">
+                            </div>
+                            <p class="jhone pl-17 wh-space">Jhone doe</p>
+                            <div>
+                                <p class="follow pl-113">Follow</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center pt-17">
+                            <img src="./assets/images/png/men2.png" alt="men">
+                            <p class="jhone pl-17 wh-space">Jhone doe</p>
+                            <p class="follow pl-113">Follow</p>
+                        </div>
+                        <div class="d-flex align-items-center pt-17">
+                            <img src="./assets/images/png/girl.png" alt="girl">
+                            <p class="jhone pl-17 wh-space">Jhone doe</p>
+                            <p class="follow pl-113">Follow</p>
+                        </div>
+                        <div class="d-flex align-items-center pt-17">
+                            <img src="./assets/images/png/img2.png" alt="2">
+                            <p class="jhone pl-17 wh-space">Jhone doe</p>
+                            <p class="follow pl-113">Follow</p>
+                        </div>
+                        <div class="d-flex align-items-center pt-17">
+                            <img src="./assets/images/png/img3.png" alt="3">
+                            <p class="jhone pl-17 wh-space">Jhone doe</p>
+                            <p class="follow pl-113">Follow</p>
+                        </div>
+                        <div class="d-flex align-items-center pt-17">
+                            <img src="./assets/images/png/girl2.png" alt="2">
+                            <p class="jhone pl-17 wh-space">Jhone doe</p>
+                            <p class="follow pl-113">Follow</p>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="copy pt-42">Copyright@2021</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
